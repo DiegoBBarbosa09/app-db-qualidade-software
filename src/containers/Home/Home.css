@@ -1,0 +1,7 @@
+.container-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(670px - 90px);
+    border-bottom: 1px dotted #fff;
+}

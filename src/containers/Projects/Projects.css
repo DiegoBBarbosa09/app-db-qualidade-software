@@ -1,0 +1,7 @@
+.container-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    height: 600px;
+    border-bottom: 1px dotted #fff;
+}
