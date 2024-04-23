@@ -13,10 +13,10 @@ function Header() {
     }
 
     const handleResize = () => {
-        if (window.innerWidth > 800 && !menuIsVisible) {
+        if (window.innerWidth > 750 && !menuIsVisible) {
             setMenuIsVisible(true)
         }
-        if (window.innerWidth <= 800 && menuIsVisible) {
+        if (window.innerWidth <= 750 && menuIsVisible) {
             setMenuIsVisible(false)
         }
     }
@@ -31,11 +31,11 @@ function Header() {
     return (
         <>
             <div className="container-header">
-                <header className="header">
+                <header className="header-app">
                     <div className="logo">
                         <img src={logo} alt="logo-image" />
                     </div>
-                    {menuIsVisible || window.innerWidth > 800 ?
+                    {menuIsVisible || window.innerWidth > 750 ?
                         <nav className="nav-header">
                             <div className="about"> 
                                 <a href="#about-scroll">
